@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 11pt;
+    color: #000;
+    background: #d8e1e0;
+    padding: 40px;
+    line-height: 1.6;
+}
+ 
+h1, h2, h3 {
+    color: #000;
+    margin-bottom: 0.5em;
+}
+ 
+h1 {
+    font-size: 18pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+}
+ 
+h2 {
+    font-size: 14pt;
+    border-bottom: 1px solid #000;
+    padding-bottom: 4px;
+    margin-top: 24px;
+}
+ 
+h3 {
+    font-size: 12pt;
+    margin-top: 20px;
+}
+ 
+a {
+    color: #0000ee;
+    text-decoration: none;
+}
+ 
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+ 
+p, li {
+    margin: 0 0 5px;
+}
+ 
+section {
+    margin-bottom: 16px;
+}
+ 
+.skills, .certificates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+ 
+.skills div, .certificates div {
+    flex: 1 1 45%;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+td {
+    vertical-align: top;
+    padding-bottom: 6px;
+}
+ 
+td:first-child {
+    width: 30%;
+    font-weight: bold;
+}

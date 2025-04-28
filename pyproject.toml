@@ -1,0 +1,27 @@
+[project]
+name = "reume-builder-checking"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asttokens>=3.0.0",
+    "beautifulsoup4>=4.13.4",
+    "bs4>=0.0.2",
+    "comm>=0.2.2",
+    "langchain>=0.3.23",
+    "langchain-community>=0.3.21",
+    "langchain-core>=0.3.55",
+    "langchain-groq>=0.3.2",
+    "langchain-nvidia-ai-endpoints>=0.3.9",
+    "langgraph>=0.3.31",
+    "langgraph-cli>=0.2.7",
+    "markdown>=3.8",
+    "matplotlib>=3.10.1",
+    "networkx>=3.4.2",
+    "pdfkit>=1.0.0",
+    "pip>=25.0.1",
+    "pymupdf>=1.25.5",
+    "streamlit>=1.44.1",
+    "weasyprint>=65.1",
+]

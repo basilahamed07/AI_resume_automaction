@@ -1,0 +1,9 @@
+{
+    "graphs": {
+      "resume_buolder": "./check_in_langgraph.py:workflow"
+    },
+    "python_version": "3.11",
+    "dependencies": [
+      "."
+    ]
+  }

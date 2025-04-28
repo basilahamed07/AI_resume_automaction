@@ -1,0 +1,13 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+ai-resume-creator\GTK-for-Windows-Runtime-Environment-Installer-2022-01-04
+ai-resume-creator\wkhtmltox
+ai-resume-creator/GTK-for-Windows-Runtime-Environment-Installer-2022-01-04.zip
